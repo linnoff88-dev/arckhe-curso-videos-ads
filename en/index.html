@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Videos &amp; Ads</title><meta content="Hands-on course: generate films, UGC ads, and video content at scale with ready-to-use prompts and workflows." name="description"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Course","name":"Vídeos & Anúncios com IA","description":"Curso prático: gere filmes, anúncios UGC e conteúdo de vídeo em escala com prompts e workflows prontos.","inLanguage":"pt-BR"}</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={darkMode:'class',theme:{extend:{colors:{dark:{900:'#111111',800:'#1a1a1a',700:'#242424',600:'#333333',400:'#888888',300:'#bbbbbb',200:'#dddddd'},primary:'#FACC15'}}}}</script>
+<style>body{font-family:ui-sans-serif,system-ui,sans-serif}
+.light-mode { background:#f8fafc; color:#334155; }
+.light-mode .bg-dark-900{background:#f1f5f9}.light-mode .bg-dark-800{background:#ffffff}
+.light-mode .bg-dark-700{background:#e2e8f0}.light-mode .border-dark-700,.light-mode .border-dark-600,.light-mode .border-dark-800{border-color:#cbd5e1}
+.light-mode .text-white{color:#0f172a}.light-mode .text-dark-300,.light-mode .text-dark-200{color:#334155}
+.light-mode .text-dark-400{color:#64748b}</style>
+<script>if(localStorage.getItem('tema')==='light')document.documentElement.classList.add('light-mode');</script>
+<link href="https://inematds.github.io/curso-videos-ads/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/curso-videos-ads/en/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/curso-videos-ads/es/" hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-dark-200 min-h-screen flex flex-col"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="./" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">EN</a><a href="../es/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<nav class="sticky top-0 z-40 backdrop-blur bg-dark-900/90 border-b border-dark-700">
+<div class="max-w-5xl mx-auto px-4 h-14 flex items-center gap-4">
+<a class="font-black text-white tracking-tight" href="#top">⚡ VIDEOS<span class="text-primary">&amp; ADS</span></a>
+<span class="text-dark-600 hidden sm:inline">|</span>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<div class="hidden lg:flex items-center gap-2 overflow-x-auto ml-auto"><a class="text-xs px-3 py-1.5 rounded-full border border-dark-600 hover:border-rose-400 transition whitespace-nowrap" href="trilha1-cinema-seedance/index.html">🎬 Seedance Cinema</a>
+<a class="text-xs px-3 py-1.5 rounded-full border border-dark-600 hover:border-amber-400 transition whitespace-nowrap" href="trilha2-ugc-prompts/index.html">📣 UGC Ads — Prompts</a>
+<a class="text-xs px-3 py-1.5 rounded-full border border-dark-600 hover:border-blue-400 transition whitespace-nowrap" href="trilha3-sistemas-video/index.html">🤖 Video Systems</a></div>
+<button class="ml-4 text-lg" id="toggleTema" title="Toggle theme">🌗</button>
+</div></nav>
+<main class="flex-1 max-w-5xl w-full mx-auto px-4 py-8">
+<section class="text-center py-12 bg-gradient-to-b from-dark-800 to-dark-900 rounded-3xl border border-dark-700 mb-10 px-4" id="top">
+<p class="text-xs tracking-[0.25em] text-primary font-bold mb-3">AI WORKSHOP · VIDEOS &amp; ADS</p>
+<h1 class="text-4xl md:text-5xl font-black text-white mb-4">Factory of <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-400">Videos &amp; Ads</span></h1>
+<p class="text-dark-300 max-w-2xl mx-auto mb-8">From dialogue film to UGC ad: ready-to-paste Seedance prompt packs and workflows that produce video, voiceover, and ad images on autopilot.</p>
+<div class="grid grid-cols-3 gap-4 max-w-md mx-auto">
+<div class="bg-dark-800/80 rounded-xl p-4 border border-dark-700"><div class="text-2xl font-black text-primary">3</div><div class="text-xs text-dark-400">tracks</div></div>
+<div class="bg-dark-800/80 rounded-xl p-4 border border-dark-700"><div class="text-2xl font-black text-primary">23</div><div class="text-xs text-dark-400">modules</div></div>
+<div class="bg-dark-800/80 rounded-xl p-4 border border-dark-700"><div class="text-2xl font-black text-primary">15</div><div class="text-xs text-dark-400">video prompts</div></div>
+</div>
+</section>
+<div class="grid md:grid-cols-2 xl:grid-cols-3 gap-5"><a class="group bg-dark-800 border border-dark-700 rounded-2xl p-6 hover:border-rose-400 transition" href="trilha1-cinema-seedance/index.html">
+<div class="flex items-start justify-between mb-3"><span class="text-3xl">🎬</span>
+<span class="text-xs px-2 py-1 rounded-full bg-dark-700 text-rose-400 font-medium">Prompts · 10 modules</span></div>
+<h2 class="text-xl font-bold text-white mb-2 group-hover:text-rose-400 transition">Seedance Cinema</h2>
+<p class="text-sm text-dark-400 leading-relaxed mb-4">9 cinematic prompts: dialogue film, character consistency, title card, and your own voice.</p>
+<span class="text-xs text-rose-400 font-semibold">Open track →</span></a>
+<a class="group bg-dark-800 border border-dark-700 rounded-2xl p-6 hover:border-amber-400 transition" href="trilha2-ugc-prompts/index.html">
+<div class="flex items-start justify-between mb-3"><span class="text-3xl">📣</span>
+<span class="text-xs px-2 py-1 rounded-full bg-dark-700 text-amber-400 font-medium">Prompts · 7 modules</span></div>
+<h2 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition">UGC Ads — Prompts</h2>
+<p class="text-sm text-dark-400 leading-relaxed mb-4">6 ready-to-use UGC ads: classic review, confession, nighttime routine, and more.</p>
+<span class="text-xs text-amber-400 font-semibold">Open track →</span></a>
+<a class="group bg-dark-800 border border-dark-700 rounded-2xl p-6 hover:border-blue-400 transition" href="trilha3-sistemas-video/index.html">
+<div class="flex items-start justify-between mb-3"><span class="text-3xl">🤖</span>
+<span class="text-xs px-2 py-1 rounded-full bg-dark-700 text-blue-400 font-medium">Workflows · 6 modules</span></div>
+<h2 class="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition">Video Systems</h2>
+<p class="text-sm text-dark-400 leading-relaxed mb-4">YouTube→content, voice narration, Veo3 viral videos, ASMR, and ad images — all automated.</p>
+<span class="text-xs text-blue-400 font-semibold">Open track →</span></a></div>
+</main>
+<footer class="border-t border-dark-700 mt-16 py-8 text-center text-sm text-dark-400">
+<p>Study material translated for educational purposes.</p>
+<p class="mt-2"><a class="text-primary hover:underline" href="https://inema.club">INEMA.CLUB</a></p>
+</footer>
+<script>
+document.getElementById('toggleTema').addEventListener('click',()=>{
+const el=document.documentElement;el.classList.toggle('light-mode');
+localStorage.setItem('tema',el.classList.contains('light-mode')?'light':'dark');});
+</script>
+</body></html>
